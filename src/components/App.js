@@ -1,6 +1,6 @@
 import React from 'react';
 import Display from './Display';
-import ButtonPannel from './ButtonPannel';
+import Pannel from './Pannel';
 import calculate from './../logic/calculate'
 import './App.css';
 
@@ -20,7 +20,7 @@ export default class App extends React.Component {
     return (
       <div className="App">
         <Display value={ next || total || 0 } />
-        <ButtonPannel clickHandler={this.handleClick} />
+        <Pannel clickHandler={this.handleClick} />
       </div>
     );
   }

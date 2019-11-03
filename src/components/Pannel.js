@@ -1,8 +1,8 @@
 import React from 'react';
 import Button from './Button';
-import './ButtonPannel.css';
+import './Pannel.css';
 
-function ButtonPannel(props) {
+function Pannel(props) {
   const handleClick = buttonText => props.clickHandler(buttonText);
   return (
     <div className="buttonPannel">
@@ -39,4 +39,4 @@ function ButtonPannel(props) {
   );
 }
 
-export default ButtonPannel;
+export default Pannel;
